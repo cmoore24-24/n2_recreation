@@ -53,6 +53,10 @@ def e23(fatjetscands, pfcands, fatjets):
     b = distance(coords, '0', '2')
     c = distance(coords, '1', '2')
 
+    ij_ik = a*b
+    ij_jk = a*c
+    ik_jk = b*c
+    
     del_comb = ak.flatten(ak.zip({'ijik': ij_ik, 'ijjk': ij_jk, 'ikjk': ik_jk}))
     temp_numpy = np.vstack((del_comb.ijik.to_numpy(),
         del_comb.ijjk.to_numpy(), 
