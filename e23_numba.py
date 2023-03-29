@@ -28,8 +28,8 @@ def e23_loop(pt, eta, phi):
 
 def e23_numba(fatjetscands, pfcands, fatjets): 
     jets_pt = ak.unflatten(ak.flatten(pfcands.pt[fatjetscands.pFCandsIdx]),ak.flatten(fatjets.nConstituents))
-    jets_eta = ak.unflatten(ak.flatten(pfcands.eta[fatjetpfcands.pFCandsIdx]),ak.flatten(fatjet.nConstituents))
-    jets_phi = ak.unflatten(ak.flatten(pfcands.phi[fatjetpfcands.pFCandsIdx]),ak.flatten(fatjet.nConstituents))   
+    jets_eta = ak.unflatten(ak.flatten(pfcands.eta[fatjetscands.pFCandsIdx]),ak.flatten(fatjets.nConstituents))
+    jets_phi = ak.unflatten(ak.flatten(pfcands.phi[fatjetscands.pFCandsIdx]),ak.flatten(fatjets.nConstituents))   
     e23_jetwise = np.array([])
     for i in range(0, len(jets_pt)):
         peetee = jets_pt[i].to_numpy()
@@ -37,5 +37,5 @@ def e23_numba(fatjetscands, pfcands, fatjets):
         fi = jets_phi[i].to_numpy()
         e23_jetwise = np.append(e23_jetwise, e23_loop(peetee, eeta, fi))
     intermed = ak.from_numpy(e23_jetwise)
-    e23_eventwise = ak.unflatten(e23_jetwise, ak.count(fatjet.nConstituents, axis=1))
+    e23_eventwise = ak.unflatten(e23_jetwise, ak.count(fatjets.nConstituents, axis=1))
     return e23_eventwise
