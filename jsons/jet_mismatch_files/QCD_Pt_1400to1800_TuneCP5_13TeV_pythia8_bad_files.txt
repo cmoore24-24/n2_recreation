@@ -1,0 +1,1 @@
+root://cmsxrootd.fnal.gov///store/user/lpcpfnano/jekrupa/v2_2/2017/QCD/QCD_Pt_1400to1800_TuneCP5_13TeV_pythia8/QCD_Pt_1400to1800/211109_133118/0000/nano_mc2017_2-6.root

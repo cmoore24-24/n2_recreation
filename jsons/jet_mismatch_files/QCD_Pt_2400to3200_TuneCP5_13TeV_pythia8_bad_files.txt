@@ -1,0 +1,9 @@
+root://cmsxrootd.fnal.gov///store/user/lpcpfnano/jekrupa/v2_2/2017/QCD/QCD_Pt_2400to3200_TuneCP5_13TeV_pythia8/QCD_Pt_2400to3200/211110_190757/0000/nano_mc2017_13.root
+root://cmsxrootd.fnal.gov///store/user/lpcpfnano/jekrupa/v2_2/2017/QCD/QCD_Pt_2400to3200_TuneCP5_13TeV_pythia8/QCD_Pt_2400to3200/211110_190757/0000/nano_mc2017_14.root
+root://cmsxrootd.fnal.gov///store/user/lpcpfnano/jekrupa/v2_2/2017/QCD/QCD_Pt_2400to3200_TuneCP5_13TeV_pythia8/QCD_Pt_2400to3200/211110_190757/0000/nano_mc2017_23.root
+root://cmsxrootd.fnal.gov///store/user/lpcpfnano/jekrupa/v2_2/2017/QCD/QCD_Pt_2400to3200_TuneCP5_13TeV_pythia8/QCD_Pt_2400to3200/211110_190757/0000/nano_mc2017_24.root
+root://cmsxrootd.fnal.gov///store/user/lpcpfnano/jekrupa/v2_2/2017/QCD/QCD_Pt_2400to3200_TuneCP5_13TeV_pythia8/QCD_Pt_2400to3200/211110_190757/0000/nano_mc2017_36.root
+root://cmsxrootd.fnal.gov///store/user/lpcpfnano/jekrupa/v2_2/2017/QCD/QCD_Pt_2400to3200_TuneCP5_13TeV_pythia8/QCD_Pt_2400to3200/211110_190757/0000/nano_mc2017_43.root
+root://cmsxrootd.fnal.gov///store/user/lpcpfnano/jekrupa/v2_2/2017/QCD/QCD_Pt_2400to3200_TuneCP5_13TeV_pythia8/QCD_Pt_2400to3200/211110_190757/0000/nano_mc2017_49.root
+root://cmsxrootd.fnal.gov///store/user/lpcpfnano/jekrupa/v2_2/2017/QCD/QCD_Pt_2400to3200_TuneCP5_13TeV_pythia8/QCD_Pt_2400to3200/211110_190757/0000/nano_mc2017_51.root
+root://cmsxrootd.fnal.gov///store/user/lpcpfnano/jekrupa/v2_2/2017/QCD/QCD_Pt_2400to3200_TuneCP5_13TeV_pythia8/QCD_Pt_2400to3200/211110_190757/0000/nano_mc2017_52.root
